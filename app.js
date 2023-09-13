@@ -1,4 +1,9 @@
-let data = require('./data.json');
+let bars = document.querySelectorAll(".tooltip")
 
-let chartBar = document.querySelector(".chart-bar");
-
+fetch("data.json")
+.then(response => response.json())
+.then(data => {
+    for(let i = 0; i < data.length; i++){
+        bars[i].innerText = data[i].amount;
+    }
+})
