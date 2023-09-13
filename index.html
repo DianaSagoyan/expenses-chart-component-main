@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses Chart</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="chart">
+        <div class="chart-header">
+            <div class="chart-text">
+                <h5>My balance</h5>
+                <h1>$921.48</h1>
+            </div>
+
+            <div>
+                <svg width="72" height="48" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#382314" cx="48" cy="24" r="24"/><circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23"/></g></svg>
+            </div>
+        </div>
+
+        <div class="chart-body">
+            <h1>Spending - Last 7 days</h1>
+
+            <div class="chart-bar">
+                <div class="bar">
+                    <div>
+                        <div class="tooltip" id = "one">$17.25</div>
+                    </div>
+                    <div>
+                        <div class="tooltip" id="two">34.91</div>
+                    </div>
+                    <div>
+                        <div class="tooltip" id = "three">$52.36</div>
+                    </div>
+                    <div>
+                        <div class="tooltip" id = "four">$31.07</div>
+                    </div>
+                    <div>
+                        <div class="tooltip" id = "five">$23.39</div>
+                    </div>
+                    <div>
+                        <div class="tooltip" id = "six">$48.28</div>
+                    </div>
+                    <div>
+                        <div class="tooltip" id = "seven">$25.48</div>
+                    </div>
+                </div>
+
+                <div class="labels">
+                    <p>mon</p>
+                    <p>tue</p>
+                    <p>wed</p>
+                    <p>thu</p>
+                    <p>fri</p>
+                    <p>sat</p>
+                    <p>sun</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="total-container">
+                <div class="total">
+                    <h5>Totals this month</h5>
+                    <h1>$478.33</h1>
+                </div>
+
+                <div class="month">
+                    <h5>+2.4%</h5>
+                    <h5>from last month</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
