@@ -13,7 +13,13 @@ fetch("data.json")
 
 let today = document.getElementsByClassName(weekdays[now.getDay()]);
 
+today[0].style.backgroundColor = "hsl(186, 34%, 60%)";
 
-today[0].classList.add("other");
+today[0].addEventListener("mouseover", () => {
+    today[0].style.backgroundColor = "hsla(186, 34%, 60%, 0.821)";
+})
 
-console.log(today)
+today[0].addEventListener("mouseout", () => {
+    today[0].style.backgroundColor = "hsl(186, 34%, 60%)";
+})
+console.log(today[0])

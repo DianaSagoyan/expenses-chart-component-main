@@ -2,7 +2,7 @@
     --softred: hsl(10, 79%, 65%);
     --softredlight: hsla(10, 79%, 65%, 0.884);
     --cyan: hsl(186, 34%, 60%);
-    --cyanlight: hsla(186, 34%, 6-%, 0.821);
+    --cyanlight: hsla(186, 34%, 60%, 0.821);
     --darkbrown: hsl(25, 47%, 15%);
     --mediumbrown: hsl(28, 10%, 53%);
     --cream: hsl(27, 66%, 92%);
@@ -198,31 +198,7 @@ hr{
 }
 
 /* tooltip on hover for each bar */
-#one{
-    display: none;
-}
-
-#two{
-    display: none;
-}
-
-#three{
-    display: none;
-}
-
-#four{
-    display: none;
-}
-
-#five{
-    display: none;
-}
-
-#six{
-    display: none;
-}
-
-#seven{
+#one, #two, #three, #four, #five, #six, #seven{
     display: none;
 }
 
