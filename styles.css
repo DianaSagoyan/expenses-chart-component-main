@@ -225,3 +225,12 @@ hr{
 #seven{
     display: none;
 }
+
+.other{
+    background-color: var(--cyan); 
+}
+
+.other:hover{
+    background-color: var(--cyanlight);
+    display: block;
+}
